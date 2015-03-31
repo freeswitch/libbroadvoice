@@ -1,7 +1,7 @@
 Source: libbroadvoice
 Priority: extra
 Maintainer: William King <william.king@quentustech.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 8.0.0), dh-autoreconf
 Standards-Version: 3.9.3
 Section: libs
 Homepage: <insert the upstream URL, if relevant>
