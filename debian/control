@@ -12,12 +12,12 @@ Package: libbroadvoice-dev
 Section: libdevel
 Architecture: any
 Depends: libbroadvoice (= ${binary:Version})
-Description: BroadVoice® is a family of speech coding algorithms created by Broadcom
-	     BroadVoice® is a family of speech coding algorithms created by Broadcom and standardized by CableLabs®, SCTE®, and ANSI for Voice over IP applications in cable telephony. BroadVoice is also part of the ITU-T Recommendations J.161 and J.361. To encourage wide-spread use of BroadVoice in diverse speech compression applications, Broadcom is providing both the floating-point and fixed-point C source code of BroadVoice on a royalty-free basis under the GNU Lesser General Public License (LGPL), version 2.1, as published by the Free Software Foundation.
+Description: BroadVoice codec
+	     BroadVoice is a family of speech coding algorithms created by Broadcom and standardized by CableLabs, SCTE, and ANSI for Voice over IP applications in cable telephony. BroadVoice is also part of the ITU-T Recommendations J.161 and J.361. To encourage wide-spread use of BroadVoice in diverse speech compression applications, Broadcom is providing both the floating-point and fixed-point C source code of BroadVoice on a royalty-free basis under the GNU Lesser General Public License (LGPL), version 2.1, as published by the Free Software Foundation.
 
 Package: libbroadvoice
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: BroadVoice® is a family of speech coding algorithms created by Broadcom
-	     BroadVoice® is a family of speech coding algorithms created by Broadcom and standardized by CableLabs®, SCTE®, and ANSI for Voice over IP applications in cable telephony. BroadVoice is also part of the ITU-T Recommendations J.161 and J.361. To encourage wide-spread use of BroadVoice in diverse speech compression applications, Broadcom is providing both the floating-point and fixed-point C source code of BroadVoice on a royalty-free basis under the GNU Lesser General Public License (LGPL), version 2.1, as published by the Free Software Foundation.
+Description: BroadVoice codec development libraries
+	     BroadVoice is a family of speech coding algorithms created by Broadcom and standardized by CableLabs, SCTE, and ANSI for Voice over IP applications in cable telephony. BroadVoice is also part of the ITU-T Recommendations J.161 and J.361. To encourage wide-spread use of BroadVoice in diverse speech compression applications, Broadcom is providing both the floating-point and fixed-point C source code of BroadVoice on a royalty-free basis under the GNU Lesser General Public License (LGPL), version 2.1, as published by the Free Software Foundation.
