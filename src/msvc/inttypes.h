@@ -65,7 +65,7 @@ typedef __int64		int64_t;
 #endif
 
 #define PACKAGE "ilbc"
-#define VERSION "0.0.1andabit"
+#define VERSION "0.1.0andabit"
 
 #define INT32_MAX	(2147483647)
 #define INT32_MIN	(-2147483647 - 1)
