@@ -1,7 +1,7 @@
 Summary:    broadvoice - a library for the BroadVoice 16 and 32 speech codecs
 Name:       broadvoice
 Version:    0.1.0
-Release:    1
+Release:    1%{?dist}
 License:    LGPL2.1
 Group:      System Environment/Libraries
 URL:        http://www.soft-switch.org/broadvoice
