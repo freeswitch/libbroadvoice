@@ -4,8 +4,6 @@ TMPDIR=broadvoice.$$
 
 mkdir -p ../${TMPDIR}
 
-./autogen.sh
-
 cd ..
 cp -a libbroadvoice ${TMPDIR}/broadvoice-0.1.0
 cd ${TMPDIR}

@@ -27,6 +27,7 @@ libbroadvoice development files.
 %setup -q
 
 %build
+./autogen.sh
 %configure --enable-doc --disable-static --disable-rpath
 make
 
