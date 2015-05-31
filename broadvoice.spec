@@ -19,7 +19,6 @@ broadvoice is a library for the BroadVoice 16 and 32 speech codecs.
 Summary:    BroadVoice development files
 Group:      Development/Libraries
 Requires:   broadvoice = %{version}
-PreReq:     /sbin/install-info
 
 %description devel
 libbroadvoice development files.
