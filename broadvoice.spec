@@ -10,7 +10,7 @@ Source:     http://www.soft-switch.org/downloads/codecs/broadvoice-0.1.0.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires: audiofile-devel
-BuildRequires: doxygen
+BuildRequires: doxygen libtool
 
 %description
 broadvoice is a library for the BroadVoice 16 and 32 speech codecs.

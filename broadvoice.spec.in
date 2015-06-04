@@ -1,7 +1,7 @@
 Summary:    broadvoice - a library for the BroadVoice 16 and 32 speech codecs
 Name:       @PACKAGE@
 Version:    @VERSION@
-Release:    1
+Release:    1%{?dist}
 License:    LGPL2.1
 Group:      System Environment/Libraries
 URL:        http://www.soft-switch.org/broadvoice
@@ -10,7 +10,7 @@ Source:     http://www.soft-switch.org/downloads/codecs/@PACKAGE@-@VERSION@.tar.
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires: audiofile-devel
-BuildRequires: doxygen
+BuildRequires: doxygen libtool
 
 %description
 broadvoice is a library for the BroadVoice 16 and 32 speech codecs.
