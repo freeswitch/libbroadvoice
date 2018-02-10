@@ -1,5 +1,12 @@
+libbroadvoice (0.1.0-999~u1) unstable; urgency=low
+
+  * Update version release
+
+ -- FreeSWITCH Solutions <packages@freeswitch.com>  Fri, 09 Feb 2018 12:50:37 +0200
+
 libbroadvoice (0.1.0-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release, based on release 0.0.1 dated at 20.09.14
+    by Steve Underwood <steveu@coppice.org>
 
- -- William King <william.king@quentustech.com>  Tue, 31 Mar 2015 10:28:23 -0700
+ -- FreeSWITCH Solutions <packages@freeswitch.com>  Fri, 09 Feb 2018 12:41:37 +0200

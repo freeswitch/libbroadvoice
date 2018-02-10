@@ -1,6 +1,6 @@
 libbroadvoice for Debian
 ------------------------
 
-<possible notes regarding this package - if none, delete this file>
+libbroadvoice debian package for FreeSwitch project use
 
- -- William King <william.king@quentustech.com>  Tue, 31 Mar 2015 10:28:23 -0700
+ -- FreeSWITCH Solutions <packages@freeswitch.com>  Fri, 09 Feb 2018 12:41:37 +0200

@@ -18,7 +18,7 @@ broadvoice is a library for the BroadVoice 16 and 32 speech codecs.
 %package devel
 Summary:    BroadVoice development files
 Group:      Development/Libraries
-Requires:   broadvoice = %{version}
+Requires:   libbroadvoice = %{version}
 
 %description devel
 libbroadvoice development files.
