@@ -1,0 +1,3 @@
+libbroadvoice1: new-package-should-close-itp-bug
+libbroadvoice1: package-name-doesnt-match-sonames libbroadvoice0
+libbroadvoice1: helper-templates-in-copyright
