@@ -207,15 +207,6 @@ AC_CHECK_HEADERS([sndfile.h])
 
 AC_LANG([C])
 
-if test "${build}" = "${host}"
-then
-    case "${host}" in
-    x86_64-*)
-        AX_CHECK_REAL_FILE([${prefix}/lib64], libdir='$(exec_prefix)/lib64')
-        ;;
-    esac
-fi
-
 # Checks for libraries.
 AC_CHECK_LIB([m], [cos])
 # Some platforms still seem to lack the basic single precision trig and power related function.
