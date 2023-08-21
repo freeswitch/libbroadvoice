@@ -27,11 +27,11 @@ CXXFLAGS="$CXXFLAGS $CONFIGURE_CXXFLAGS"
 LDFLAGS="$LDFLAGS $CONFIGURE_LDFLAGS"
 
 m4_include(config/ax_compiler_vendor.m4)
-m4_include(config/ax_check_real_file.m4)
 m4_include(config/ax_fixed_point_machine.m4)
 m4_include(config/ax_misaligned_access_fails.m4)
 m4_include(config/ax_c99_features.m4)
 m4_include(config/ax_check_export_capability.m4)
+m4_include(config/ax_check_folders.m4)
 
 BROADVOICE_MAJOR_VERSION=0
 BROADVOICE_MINOR_VERSION=1
@@ -211,7 +211,7 @@ if test "${build}" = "${host}"
 then
     case "${host}" in
     x86_64-*)
-        AX_CHECK_REAL_FILE([${prefix}/lib64], libdir='$(exec_prefix)/lib64')
+        AX_CHECK_FOLDERS([${prefix}/lib64], libdir='$(exec_prefix)/lib64')
         ;;
     esac
 fi
