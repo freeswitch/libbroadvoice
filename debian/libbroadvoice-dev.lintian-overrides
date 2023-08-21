@@ -1,2 +1,3 @@
 libbroadvoice-dev: new-package-should-close-itp-bug
 libbroadvoice-dev: helper-templates-in-copyright
+libbroadvoice-dev: pkg-config-unavailable-for-cross-compilation

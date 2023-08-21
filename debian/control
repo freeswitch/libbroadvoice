@@ -1,7 +1,7 @@
 Source: libbroadvoice
-Priority: extra
+Priority: optional
 Maintainer: FreeSWITCH Solutions <packages@freeswitch.com>
-Build-Depends: debhelper (>= 9), dh-autoreconf, automake (>= 1.14), autoconf (>= 2.69)
+Build-Depends: debhelper (>= 10), dh-autoreconf, automake (>= 1.14), autoconf (>= 2.69)
 Standards-Version: 3.9.6
 Section: libs
 Homepage: https://www.broadcom.com/support/broadvoice/
