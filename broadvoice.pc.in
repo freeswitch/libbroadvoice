@@ -3,7 +3,7 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: spandsp
+Name: broadvoice
 Description: A library for the BroadVoice 16 and 32 speech codecs.
 Requires:
 Version: @VERSION@
